@@ -1,5 +1,5 @@
 change_CTDB <- function(x) {
-  if (length(x) > 1) {      # Does a species by trait combination have more than 1 value?
+  if (length(x) > 1) {  #this is Diego    # Does a species by trait combination have more than 1 value?
     x <- type.convert(x, as.is=TRUE)
     if (is.character(x)) {
       return(x[1])          # If values are strings (characters), then return the first value
