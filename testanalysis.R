@@ -1,5 +1,5 @@
 change_CTDB <- function(x) {
-add stuff
+add stuff again
   if (length(x) = 1) {      # Does a species by trait combination have more than 1 value?
 =======
   if (length(x) > 1) {  #this is Diego    # Does a species by trait combination have more than 1 value?
